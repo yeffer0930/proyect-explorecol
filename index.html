@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
+    <link rel="stylesheet" href="./assets/css/destinos.css">
+    <link rel="stylesheet" href="./assets/css/callback.css">
+    <link rel="stylesheet" href="./assets/css/btn-reservar.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <title>ExploreCol Travel</title>
+</head>
+<body>
+    <!---------------- Barra de Navegación  -------------------------------->
+    <header>
+        <div class="header__img">
+            <img src="./assets/img/ExploreCol.png" alt="ExploreCol-Logo">
+        </div>
+        <nav class="header__navbar">
+            <ul>
+                <li>
+                    <a href="">Destinos</a>
+                </li>
+                <li>
+                    <a href="">Paquetes</a>
+                </li>
+                <li>
+                    <a href="">Contacto</a>
+                </li>
+                <li>
+                    <a href="">Nosotros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-------------------  Carrusell de fotos -------------------------->
+    <section>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/andres-herrera-B7Zv5rtOlSg-unsplash.jpg" class="d-block w-100" alt="imagen-colombia-1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/fernanda-fierro-XV4XUU7gWlk-unsplash.jpg" class="d-block w-100" alt="imagen-colombia-2">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/azzedine-rouichi-NqMHXiNxbuE-unsplash.jpg" class="d-block w-100" alt="imagen-colombia-3">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/leandro-loureiro-J0suKy48jfk-unsplash.jpg" class="d-block w-100" alt="imagen-colombia-4">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="carousel-text">
+            <h1>Exploremos juntos los paraísos <br>
+            escondidos de Colombia</h1>
+        </div>
+    </section>
+    <!----------------- Sección Destinos ----------------------------------->
+    <section class="destinos__container">
+        <h2>Destinos Por Descubrir</h2>
+        <div class="destinos__cards">
+            <div class="destinos__cards-content-top">
+                <div class="card" style="width: 25rem;">
+                    <img src="./assets/img/archipielago-san-bernardo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Archipielago de San Bernardo</h5>
+                        <p class="card-text">El Archipiélago de San Bernardo, 
+                            situado en la costa caribeña de Colombia, 
+                            es conocido por sus islas paradisíacas y aguas turquesas. 
+                            Es un destino perfecto para el buceo, snorkel 
+                            y relajarse en playas de arena blanca.</p>
+                        <a href="#" class="btn btn-primary">Explora Más</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem;">
+                    <img src="./assets/img/murillo-tolima.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Termales la Cabaña - Murillo Tolima</h5>
+                        <p class="card-text">Los Termales La Cabaña en Murillo, Tolima, 
+                            son un oasis de relajación rodeado de naturaleza exuberante. 
+                            Con aguas termales naturales que ofrecen propiedades terapéuticas, 
+                            es un destino ideal para descansar y revitalizarse en medio de paisajes 
+                            montañosos.</p>
+                        <a href="#" class="btn btn-primary">Explora Más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="destinos__cards-content-bottom">
+                <div class="card" style="width: 25rem;">
+                    <img src="./assets/img/capurgana.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Capurganá</h5>
+                        <p class="card-text">Capurganá, en el departamento de Chocó, Colombia, 
+                            es un encantador pueblo costero famoso por su biodiversidad marina 
+                            y sus playas de arena blanca. Es ideal para el ecoturismo y ofrece 
+                            actividades como snorkel y buceo en aguas cristalinas.</p>
+                        <a href="#" class="btn btn-primary">Explora Más</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem;">
+                    <img src="./assets/img/fin-del-mundo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cascada del Fin del Mundo</h5>
+                        <p class="card-text">La Cascada del Fin del Mundo en Putumayo, Colombia, 
+                            es una impresionante caída de agua en medio de la selva amazónica. 
+                            Es un destino natural único para los amantes de la aventura 
+                            y ofrece una experiencia inigualable en un entorno salvaje y majestuoso.</p>
+                        <a href="#" class="btn btn-primary">Explora Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------- Call to Action --------------------------------------->
+    <section class="callback">
+        <div>
+            <h2>¿Quieres asesoría personalizada?</h2>
+            <p>Déjanos tus datos y te contactaremos:</p>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Tu nombre completo</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Tu correo electrónico</label>
+                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Tu número de contacto</label>
+                <input type="number" class="form-control" id="formGroupExampleInput3" placeholder="Another input placeholder">
+            </div>
+            <a href="#" class="callback__btn btn-primary">Enviar</a>
+        </div>
+        <div class="callback__video-container">
+            <iframe class="callback__video" width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/3iRbX0WfJOY?si=jAsMgPPLpHD-TkcE" 
+            title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+        </div>
+        
+    </section>
+    <!----------------  Botón Reservar ------------------------------------->
+    <div class="reservar__container">
+        <a href="#" class="reservar__container-btn">Reserva tu próxima aventura ya!</a>
+    </div>
+    <!----------------  footer ------------------------------------>
+    <footer class="footer__container">
+        <div>
+            <h4>Contacto</h4>
+            <ul>
+                <li>Dirección: Calle 52 # 9 18 Edificio GrandCenter</li>
+                <li>Teléfono: (061) 124 23 45 / (+57 1) 321 324 56 43</li>
+                <li>Correo electrónico: exploreadmin@explorecol.co</li>
+                <li>Bogotá D.C. - Colombia</li>
+            </ul>
+        </div>
+        <div class="footer__container-logo">
+            <img src="./assets/img/ExploreCol-Symbol.png" alt="ExploreCol-Symbol">
+        </div>
+        <div class="footer__container-social">
+            <h4>Descubre más en:</h4>
+            <div class="footer__container-social-logos">
+                <a href="https://www.facebook.com/tu-pagina" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/tu-usuario" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@tu-usuario" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

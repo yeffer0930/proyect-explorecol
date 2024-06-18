@@ -1,0 +1,18 @@
+.reservar__container {
+    display: flex;
+    width: 100%;
+    height: 74px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+a.reservar__container-btn {
+    text-decoration: none;
+    background-color: #a6c288;
+    border: 8px solid #ebe68d;
+    color: #17181f;
+    align-content: center;
+    border-radius: 20px;
+    font-size: xx-large;
+}
