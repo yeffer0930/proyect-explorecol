@@ -1,4 +1,4 @@
-.paquetes__header {
+.nosotros__header {
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 80px;
@@ -6,11 +6,11 @@
     align-content: center;
 }
 
-.paquetes__header-navbar {
+.nosotros__header-navbar {
     align-content: center;
 }
 
-.paquetes__header-navbar ul {
+.nosotros__header-navbar ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
@@ -21,13 +21,13 @@
     align-items: center;
 }
 
-.paquetes__header-navbar ul:hover {
+.nosotros__header-navbar ul:hover {
     background-color: #314d4a;
     border-radius: 20px;
     transform: perspective(3s);
 }
 
-.paquetes__header-navbar a {
+.nosotros__header-navbar a {
     text-decoration: none;
     color: #0b8770;
     font-size: x-large;
@@ -35,30 +35,30 @@
 }
 
 @media screen and (max-width: 790px) {
-    .paquetes__header-navbar a {
+    .nosotros__header-navbar a {
         font-size: 18px;
     }
 }
 
 @media screen and (max-width: 670px) {
-    .paquetes__header-navbar a {
+    .nosotros__header-navbar a {
         font-size: 15px;
     }
 }
 
 @media screen and (max-width: 475px) {
-    .paquetes__header-navbar a {
+    .nosotros__header-navbar a {
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 415px) {
-    .paquetes__header-navbar a {
+    .nosotros__header-navbar a {
         font-size: 9px;
     }
 }
 
-.paquetes__header-navbar a:hover {
+.nosotros__header-navbar a:hover {
     text-decoration: none;
     color: #ebe68d;
     font-size: x-large;
@@ -79,51 +79,48 @@
 }
 
 @media screen and (max-width: 450px) {
-    .header__img {
+    .nosotros__img {
         align-content: center;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .paquetes__header img {
+    .nosotros__header img {
         width: 281px;
         height: 57px;
     }
 }
 
 @media screen and (max-width: 580px) {
-    .paquetes__header img {
+    .nosotros__header img {
         width: 194px;
         height: 40px;
     }
 }
 
 @media screen and (max-width: 580px) {
-    .paquetes__header img {
+    .nosotros__header img {
         width: 134px;
         height: 26px;
     }
 }
 
-.paquetes__titulo {
+.nosotros__titulo {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.paquetes__titulo h1 {
+.nosotros__titulo h1 {
     color: #0b8770;
     text-align: center;
 }
 
-.paquetes__contenedor {
-    background-color: #314d4a;
+.nosotros__contenedor {
+    border: 2px solid #0b8770;
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 30px;
-}
-
-@media screen and (max-width: 563px) {
-    .reservar__container-btn {
-        font-size: medium;
-    }
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 40px;
+    background-image: url(./../img/logo-background.png);
 }

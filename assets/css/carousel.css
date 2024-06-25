@@ -13,9 +13,144 @@
 .carousel-text h1 {
     position: absolute;
     top: 50%;
-    left: 14%;
+    left: 25%;
     color: white;
     font-weight: 200;
     font-size: -webkit-xxx-large;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1143.70px) {
+    .carousel-text h1 {
+        top: 50%;
+        left: 18%;
+    }
+}
+
+@media screen and (max-width: 1048.89px) {
+    .carousel-text h1 {
+        top: 50%;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-text h1 {
+        top: 50%;
+        left: 19%;
+        font-size: 41px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .carousel-text h1 {
+        top: 50%;
+        left: 15%;
+        font-size: 41px;
+    }
+}
+
+@media screen and (max-width: 842px) {
+    .carousel-text h1 {
+        top: 50%;
+        left: 18%;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .carousel-text h1 {
+        top: 50%;
+        left: 22%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .carousel-text h1 {
+        top: 52%;
+        left: 18%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .carousel-text h1 {
+        top: 52%;
+        left: 20%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .carousel-text h1 {
+        top: 53%;
+        left: 17%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 554px) {
+    .carousel-text h1 {
+        top: 53%;
+        left: 15%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    .carousel-text h1 {
+        top: 55%;
+        left: 20%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-text h1 {
+        top: 54%;
+        left: 17%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .carousel-text h1 {
+        top: 54%;
+        left: 21%;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 423px) {
+    .carousel-text h1 {
+        top: 54%;
+        left: 18%;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .carousel-text h1 {
+        top: 54%;
+        left: 15%;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .carousel-text h1 {
+        top: 55%;
+        left: 17%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .carousel-text h1 {
+        top: 55%;
+        left: 15%;
+        font-size: 15px;
+    }
 }

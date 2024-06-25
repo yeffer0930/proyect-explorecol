@@ -10,8 +10,34 @@ section.callback {
     border-radius: 20px;
 }
 
+@media screen and (max-width: 855px) {
+    section.callback {
+        height: 48rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 section.callback h2 {
     text-align: center;
+}
+
+@media screen and (max-width: 855px) {
+    section.callback h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    section.callback p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .form-label {
+        font-size: 13px;
+    }
 }
 
 .callback__btn {
@@ -21,6 +47,12 @@ section.callback h2 {
     padding: 6px 12px;
     border-radius: 6px;
     text-decoration: none;
+}
+
+.callback__btn:hover {
+    background-color: #314d4a;
+    color: #ebe68d;
+    border:2px solid #ebe68d
 }
 
 .callback__video-container {

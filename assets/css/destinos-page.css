@@ -4,6 +4,7 @@
     height: 80px;
     padding: 10px;
     align-content: center;
+
 }
 
 .destinos__header-navbar {
@@ -17,6 +18,14 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    height: 77px;
+    align-items: center;
+}
+
+.destinos__header-navbar ul:hover {
+    background-color: #314d4a;
+    border-radius: 20px;
+    transform: perspective(3s);
 }
 
 .destinos__header-navbar a {
@@ -24,6 +33,77 @@
     color: #0b8770;
     font-size: x-large;
     font-weight: 400;
+}
+
+@media screen and (max-width: 790px) {
+    .destinos__header-navbar a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .destinos__header-navbar a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .destinos__header-navbar a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .destinos__header-navbar a {
+        font-size: 9px;
+    }
+}
+
+.destinos__header-navbar a:hover {
+    text-decoration: none;
+    color: #ebe68d;
+    font-size: x-large;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .header__img {
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__img {
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header__img {
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .destinos__header img {
+        width: 281px;
+        height: 57px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .destinos__header img {
+        width: 194px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .destinos__header img {
+        width: 134px;
+        height: 26px;
+    }
 }
 
 .destinos__titulo {
@@ -73,4 +153,9 @@ img.img-fluid.rounded-start {
     color: #314d4a;
     border: none;
     bottom: 20px;
+}
+
+a.btn.btn-primary:hover {
+    background-color: #314d4a;
+    color: #ebe68d;
 }

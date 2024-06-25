@@ -17,6 +17,14 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
+    height: 77px;
+    align-items: center;
+}
+
+.header__navbar ul:hover {
+    background-color: #314d4a;
+    border-radius: 20px;
+    transform: perspective(3s);
 }
 
 .header__navbar a {
@@ -24,6 +32,77 @@ header {
     color: #0b8770;
     font-size: x-large;
     font-weight: 400;
+}
+
+@media screen and (max-width: 790px) {
+    .header__navbar a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .header__navbar a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .header__navbar a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .header__navbar a {
+        font-size: 9px;
+    }
+}
+
+.header__navbar a:hover {
+    text-decoration: none;
+    color: #ebe68d;
+    font-size: x-large;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .header__img {
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__img {
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header__img {
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header__img img {
+        width: 281px;
+        height: 57px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__img img {
+        width: 194px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__img img {
+        width: 134px;
+        height: 26px;
+    }
 }
 
 

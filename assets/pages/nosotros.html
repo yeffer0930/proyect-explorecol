@@ -15,16 +15,18 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./../../assets/css/styles.css">
-    <link rel="stylesheet" href="./../css/header.css">
     <link rel="stylesheet" href="./../css/footer.css">
+    <link rel="stylesheet" href="./../css/nosotros.css">
     <title>Nosotros - ExploreCol</title>
 </head>
 <body>
-    <header class="paquetes__header">
+    <header class="nosotros__header">
         <div class="header__img">
-            <img src="./../img/ExploreCol.png" alt="ExploreCol-Logo">
+            <a href="./../../index.html" target="_blank">
+                <img src="./../img/ExploreCol.png" alt="ExploreCol-Logo">
+            </a>
         </div>
-        <nav class="paquetes__header-navbar">
+        <nav class="nosotros__header-navbar">
             <ul>
                 <li>
                     <a href="./../pages/destinos.html" target="_blank">Destinos</a>
@@ -33,10 +35,62 @@
                     <a href="./../pages/reservas.html" target="_blank">Reservas</a>
                 </li>
                 <li>
-                    <a href="./../pages/nosotros.html" target="_blank">Nosotros</a>
+                    <a href="./../pages/nosotros.html" target="_blank">Paquetes</a>
                 </li>
             </ul>
         </nav>
     </header>
+    <!--------------------Nosotros Descripción --------------------------->
+    <div class="nosotros__titulo">
+        <h1>Nosotros</h1>
+    </div>
+    <section class="nosotros__contenedor">
+        <p>
+            ExploreCol SAS, nació en el 2024 con el propósito de dar reconocimientos
+            a estos destinos turísticos en Colombia no tan conocidos pero que son 
+            verdaderos paraísos naturales. 
+
+            Queremos acercar a todos los colombianos a cada rincón de Colombia, y descentralizar
+            el turismo, creando así oportunidades, desarrollo y crecimiento de cada una de las 
+            regiones que promocionamos. 
+
+            Iniciamos con 4 destinos: Archipiélago de San Bernardo, Capurganá,
+            Cascada del Fin del Mundo y Termaales La Cabaña; pero queremos llegar a más 
+            lugares y a más colombianos para impactar a cada turísta y a cada emprendedor que 
+            nos apoya.
+
+            En este viaje nos acompañan hoteles asociados que brindan todas sus comodidades
+            y servicios para que cada experiencia sea única.
+        </p>
+    </section>
+
+    <!----------------------------------- Footer ---------------------->
+    <footer class="footer__container">
+        <div>
+            <h4>Contacto</h4>
+            <ul>
+                <li>Dirección: Calle 52 # 9 18 Edificio GrandCenter</li>
+                <li>Teléfono: (061) 124 23 45 / (+57 1) 321 324 56 43</li>
+                <li>Correo electrónico: exploreadmin@explorecol.co</li>
+                <li>Bogotá D.C. - Colombia</li>
+            </ul>
+        </div>
+        <div class="footer__container-logo">
+            <img src="./../img/ExploreCol-Symbol.png" alt="ExploreCol-Symbol">
+        </div>
+        <div class="footer__container-social">
+            <h4>Descubre más en:</h4>
+            <div class="footer__container-social-logos">
+                <a href="https://www.facebook.com/tu-pagina" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/tu-usuario" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@tu-usuario" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+        crossorigin="anonymous">
+    </script>
 </body>
 </html>

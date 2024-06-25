@@ -9,6 +9,14 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    height: 77px;
+    align-items: center;
+}
+
+.reservas__header-navbar ul:hover {
+    background-color: #314d4a;
+    border-radius: 20px;
+    transform: perspective(3s);
 }
 
 .reservas__header-navbar a {
@@ -16,6 +24,77 @@
     color: #0b8770;
     font-size: x-large;
     font-weight: 400;
+}
+
+@media screen and (max-width: 790px) {
+    .reservas__header-navbar a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .reservas__header-navbar a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .reservas__header-navbar a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .reservas__header-navbar a {
+        font-size: 9px;
+    }
+}
+
+.reservas__header-navbar a:hover {
+    text-decoration: none;
+    color: #ebe68d;
+    font-size: x-large;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .header__img {
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__img {
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .reservas__img {
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .reservas__header img {
+        width: 281px;
+        height: 57px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .reservas__header img {
+        width: 194px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .reservas__header img {
+        width: 134px;
+        height: 26px;
+    }
 }
 
 .reservas__titulo {
@@ -37,6 +116,13 @@
     grid-template-columns: 1fr 1fr;
     border: 1px solid #0b8770;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 850px) {
+    .reservas__formulario {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .btn-primary {

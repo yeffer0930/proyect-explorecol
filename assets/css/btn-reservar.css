@@ -9,10 +9,38 @@
 
 a.reservar__container-btn {
     text-decoration: none;
-    background-color: #a6c288;
-    border: 8px solid #ebe68d;
+    background-color: #ebe68d;
     color: #17181f;
     align-content: center;
     border-radius: 20px;
     font-size: xx-large;
+    animation: reserve-btn 2s infinite;
+}
+
+a.reservar__container-btn:hover {
+    transform: scale(1.2);
+}
+
+@keyframes reserve-btn {
+    0% {
+      background-color: #314d4a;
+    }
+    25% {
+      background-color: #0b8770;
+    }
+    50% {
+      background-color: #a6c288;
+    }
+    75% {
+      background-color: #ebe68d;
+    }
+    100% {
+      background-color: #314d4a; 
+    }
+  }
+
+@media screen and (max-width: 563px) {
+    a.reservar__container-btn {
+        font-size: medium;
+    }
 }
