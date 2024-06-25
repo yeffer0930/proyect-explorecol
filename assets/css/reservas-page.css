@@ -1,0 +1,86 @@
+.reservas__header-navbar {
+    align-content: center;
+}
+
+.reservas__header-navbar ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reservas__header-navbar a {
+    text-decoration: none;
+    color: #0b8770;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.reservas__titulo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.reservas__titulo h1 {
+    color: #0b8770;
+    text-align: center;
+}
+
+.row {
+    padding: 15px;
+}
+
+.reservas__formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #0b8770;
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #ebe68d;
+    color: #314d4a;
+    border: none;
+    bottom: 20px;
+}
+
+.reservas__imagen img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    border: 2px solid #314d4a;
+    border-top-right-radius: 20px;
+    padding: 15px;
+    border-top-left-radius: 20px;
+    margin-top: 50px;
+}
+
+.footer__container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+.footer__container-logo {
+    align-self: center;
+}
+
+::before {
+    font-size: 57px;
+    color: #314d4a;
+}
+
+.footer__container-social-logos {
+    display: flex;
+    justify-content: space-between;
+}
